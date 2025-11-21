@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            background: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        img {
+            width: 250px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #222;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #444;
+        }
+
+        .card {
+            background: pink;
+            width: 90%;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="card">
+    <img src="IMG-20250916-WA0057.jpg" alt="My Photo">
+
+    <h1>Brenda Pamela</h1>
+
+    <p>Welcome to my personal website!</p>
+    <div style="margin-top: 20px;">
+
+    <a href="https://instagram.com/caliope cruz" target="_blank" 
+       style="display:inline-block; padding:10px 20px; background:#E1306C; color:white; border-radius:8px; text-decoration:none; margin:5px;">
+       Instagram
+    </a>
+
+    <a href="https://wa.me/254758106190" target="_blank" 
+       style="display:inline-block; padding:10px 20px; background:#25D366; color:white; border-radius:8px; text-decoration:none; margin:5px;">
+       WhatsApp
+    </a>
+
+</div>
+<p>
+  Email me: 
+  <a href="mailto:yourname@example.com">brendapamela180@gmail.com</a>
+</p>
+<p>
+  My TikTok:
+  <a href="https://www.tiktok.com/@seth205.p" target="_blank">
+    @seth205.p
+  </a>
+</p>
+<h2>My Photo Gallery</h2>
+
+<div style="
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 10px;
+">
+    <img src="IMG-20250811-WA0005.jpg" style="width: 100%; border-radius: 10px;">
+    <img src="IMG-20250901-WA0020.jpg" style="width: 100%; border-radius: 10px;">
+    <img src="IMG-20250914-WA0010.jpg" style="width: 100%; border-radius: 10px;">
+    <img src="IMG-20251001-WA0029.jpg" style="width: 100%; border-radius: 10px;">
+</div>
+<div style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+">
+
+    <!-- LAST IMAGE (Left Side) -->
+    <img src="IMG-20251011-WA0005.jpg"
+         style="width: 45%; max-width: 250px; border-radius: 10px;">
+
+    <!-- AUTO-PLAY VIDEO (Right Side) -->
+    <video 
+        autoplay 
+        muted 
+        loop 
+        playsinline
+        style="width: 45%; max-width:250px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+        <source src="VID-20250725-WA0003_125311.mp4" type="video/mp4">
+    </video>
+
+</div>
+</body>
+</html>
